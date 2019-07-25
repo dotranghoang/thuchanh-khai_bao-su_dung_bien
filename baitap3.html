@@ -8,10 +8,16 @@
 <script>
     let a;
     let b;
-    a=prompt("nhap so a" ,"0" );
-    b=prompt("nhap so b" ,"0");
-    let sodu= (a%b);
-    alert("so du cua phep chia la" + sodu );
+    a=parseFloat(prompt("nhap so a" ,"0" ));
+    b=parseFloat(prompt("nhap so b" ,"0"));
+    if (a%b==0) {
+        alert('a chia het cho b');
+    }
+    else {
+        alert('a khong chia het cho b');
+    }
+
+
 
 
 
